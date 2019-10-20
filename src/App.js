@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter as Router,Route,Switch,Redirect} from "react-router-dom"
+import {HashRouter as Router,Route,Switch,Redirect} from "react-router-dom"
 import Public from './public';
 import Protected from './protected';
 import auth from "./auth"
