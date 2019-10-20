@@ -19,7 +19,7 @@ function App() {
           return <Redirect to="/"/>
         }
      }}/>
-     <Route to="*" component={Pagenotfound}/>
+   {/*   <Route to="*" component={Pagenotfound}/> */}
      </Switch>
     </div>
     </Router>
